@@ -7,7 +7,7 @@ Description
 
 * Tech note for me by Sphinx.
 * Available To search by `Alfred <http://www.alfredapp.com/>`_ + `Dash <http://kapeli.com/dash>`_.
-* Available To associate with `Kobito<http://kobito.qiita.com/en>`_.
+* Available To associate with `Kobito <http://kobito.qiita.com/en>`_.
 
 Requirement
 -----------------------------

@@ -40,7 +40,7 @@
 
 なにわともあれSphinxプロジェクトを用意
 
-```terminal
+```
 $ mkvirtualenv qiitanote # virualenvwrapperを使ってる
 
 (qiitanote)$ pip install Sphinx
@@ -57,7 +57,7 @@ $ mkvirtualenv qiitanote # virualenvwrapperを使ってる
 # ApacheでVirtualhostを切って、http://qiitanote.dev/ で_build/html以下を見れるようにしている
 
 # ドキュメントの確認(Chromeが開く)
-$ open -a Google\ Chrome.app  http://qiitanote.dev
+(qiitanote)$ open -a Google\ Chrome.app  http://qiitanote.dev
 ```
 
 初期ディレクトリ構成
@@ -82,8 +82,8 @@ qiitanote
 
 Pandocのインスコ
 
-```terminal
-$ brew install pandoc
+```
+(qiitanote)$ brew install pandoc
 ```
 
 拡張の設定
@@ -103,8 +103,8 @@ source_suffix = '.md'
 
 適当に.mdファイルを作って書いてみる
 
-```terminal
-$ touch fisrtnote.md
+```
+(qiitanote)$ touch fisrtnote.md
 ```
 
 中身
@@ -125,8 +125,8 @@ fugafugafugafuga
 
 ビルド
 
-```terminal
-$ make html
+```
+(qiitanote)$ make html
 ```
 
 結果
@@ -139,8 +139,8 @@ Qiitaに投稿するためにKobitoとファイル連携をさせる
 
 * [Kobito v1.7.0リリース: コマンドラインからファイルを連携できるようになりました!](http://blog.qiita.com/post/59062715100/kobito-v1-7-0-release)
 
-```terminal
-$ open -a Kobito firstnote.md
+```
+(qiitanote)$ open -a Kobito firstnote.md
 ```
 
 * Kobitoが開いてファイル連携される。そのまま「Qiitaに投稿」を押せば投稿できる
@@ -215,7 +215,7 @@ qiitanote
 
 ## Alfred + Dash で検索する
 
-折角書いたメモなので手元で簡単に検索したい。AlfredとDashを使って検索する。AlfredもDashは有料版買った。
+折角書いたメモなので手元で簡単に検索したい。AlfredとDashを使って検索する。AlfredもDashも有料版買った。
 
 * [Alfredとdashで超高速リファレンス - SlideShare](http://www.slideshare.net/duffytoy1/alfreddash)
 * 設定は割愛
@@ -226,7 +226,7 @@ sphinxcontrib-dashbuilder を使うとSphinxドキュメントを簡単にDash�
 
 インストール
 
-```terminal
+```
 (qiitanote)$ pip install sphinxcontrib-dashbuilder
 ```
 
@@ -265,7 +265,7 @@ dash:
 
 ビルド
 
-```terminal
+```
 (qiitanote)$ make dash
 ```
 
@@ -361,7 +361,7 @@ qiitanote
 
 拙作のsphinxテーマを利用する。
 
-```terminal
+```
 (qiitanote)$ pip install sphinxjp.themes.basicstrap
 ```
 
@@ -385,7 +385,7 @@ html_theme_options = {
 
 ビルド
 
-```terminal
+```
 (qiitanote)$ make html
 ```
 
