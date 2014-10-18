@@ -23,7 +23,6 @@ Requirement
 ::
 
  You have to integrate Dash with Alfred.
-
  http://www.alfredforum.com/topic/1919-dash-documentation-for-80-apis/?p=10275
 
 
