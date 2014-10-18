@@ -64,7 +64,6 @@ Setup
 License
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* libs/sphinxcontrib_markdown.py Licensed under the `BSD License<https://gist.github.com/tk0miya/4336929>`_. 
-
-Thanks to original author Takeshi Komiya.
+* libs/sphinxcontrib_markdown.py Licensed under the `BSD License <https://gist.github.com/tk0miya/4336929>`_. 
+* Thanks to original author Takeshi Komiya.
 
