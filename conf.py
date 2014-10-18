@@ -260,7 +260,7 @@ texinfo_documents = [
 PROJECT_DIR = os.path.dirname(__file__)
 sys.path.insert(0, PROJECT_DIR)
 sys.path.insert(0, os.path.join(PROJECT_DIR, "libs"))
-extensions += ["sphinxcontrib_markdown", "sphinxcontrib.dashbuilder", 'sphinxjp.themes.basicstrap']
+extensions = ["sphinxcontrib_markdown", "sphinxcontrib.dashbuilder", 'sphinxjp.themes.basicstrap']
 
 html_theme = 'basicstrap'
 
