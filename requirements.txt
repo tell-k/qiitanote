@@ -1,0 +1,3 @@
+Sphinx==1.2.3
+sphinxcontrib-dashbuilder==0.1.0
+sphinxjp.themes.basicstrap==0.4.1

@@ -1,0 +1,7 @@
+*.pyc
+*.swp
+bin
+_build
+eggs
+*.*~
+private/*
