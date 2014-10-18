@@ -267,6 +267,7 @@ html_theme = 'basicstrap'
 html_theme_options = {
     'lang': 'ja',
 
+    'nav_fixed_top': False,
     'nosidebar': True,
 
     'header_inverse': True,
